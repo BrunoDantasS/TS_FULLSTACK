@@ -1,18 +1,34 @@
-import {Entity, PrimaryGeneratedColumn, Column} from "typeorm";
+import {Entity, PrimaryGeneratedColumn, Column, OneToOne} from "typeorm";
+import { Adress } from "./Adress";
 
 @Entity()
 export class User {
 
-    @PrimaryGeneratedColumn()
-    id: number;
+  @PrimaryGeneratedColumn()
+  id: number;
 
-    @Column()
-    firstName: string;
+  @Column()
+  name: string;
 
-    @Column()
-    lastName: string;
+  @Column()
+  phone: number;
 
-    @Column()
-    age: number;
+  @Column()
+  email: string;
+
+  @Column()
+  age: number;
+
+  @Column()
+  weight: number;
+
+  @Column()
+  ethnicity: string;
+
+  @Column()
+  password: string;
+
+  @OneToOne(() => Adress)
+  adress: Adress;
 
 }
