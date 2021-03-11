@@ -80,7 +80,7 @@ _**Objetivo:** Construir uma dashboard simples, composta por um sidemenu, header
 * [ ] Sidemenu expansível (Não utilizar libs, fazer animações com css)
 * [ ] Hooks
 * [ ] ContextApi
-* [ ] Memoização de componentes e paginas
+* [ ] Memorização de componentes e paginas
 * [ ] Axios
 * [ ] Componentização
 * [ ] Styled componentes
