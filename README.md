@@ -43,12 +43,12 @@ _**Objetivo:** Construir uma aplicação conectada ao teste de backend, onde que
 > Requisitos:
 
 * **Obrigatórios**
-  * [ ] JWT
-  * [ ] Postgree
+  * [x] JWT
+  * [x] Postgree
   * [ ] Testes
 
 * **Bônus**
-  * [ ] Docker (Bônus)
+  * [x] Docker (Bônus)
 
 <br>
 <br>
